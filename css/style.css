@@ -1,3 +1,6 @@
+/*---------------*/
+/*BASIC SETUP*/
+/*---------------*/
 *{
 	margin: 0;
 	padding:0;
@@ -28,6 +31,10 @@ html{
 	font-family:'Brandon-Regular';
 	background: #fff;
 }
+
+/*---------------*/
+/*HOME SECTION*/
+/*---------------*/
 .home{
 	background: url(../images/banner.jpg);
  	background-size: cover;
@@ -88,4 +95,47 @@ header{
 	font-size: 22px;
 	font-weight: bold;
 
+}
+/*---------------*/
+/*FEATURE SECTION*/
+/*---------------*/
+
+.feature-in{
+	padding: 98px 20px;
+}
+.feature-1{
+	width: 574px;
+}
+.feature-1 h2{
+	font-family:'Brandon-light';
+	font-size: 60px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.feature-1 strong{
+	font-family:'Brandon-bold';
+}
+.feature-1 p{
+	font-family:'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
+}
+.feature-2{
+	margin-top: 150px;
+	width: 574px;
+	margin-left: 447px;
+}
+.feature-2 h2{
+	font-family:'Brandon-light';
+	font-size: 60px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.feature-2 strong{
+	font-family:'Brandon-bold';
+}
+.feature-2 p{
+	font-family:'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
 }
