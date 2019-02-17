@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family:'Brandon-Regular';
+	src:url("../font/Brandon_reg.otf");
+}
+@font-face{
+	font-family:'Brandon-Medium';
+	src:url("../font/Brandon_med.otf");
+}
+@font-face{
+	font-family:'Brandon-light';
+	src:url("../font/Brandon_light.otf");
+}
+@font-face{
+	font-family:'Brandon-bold';
+	src:url("../font/Brandon_bld.otf");
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html{
+	font-family:'Brandon-Regular';
+	background: #fff;
+}
+.home{
+	background: url(../images/banner.jpg);
+ 	background-size: cover;
+	background-position: center;
+	height: 621px;
+	background-attachment: fixed;
+}
+header{
+	padding: 38px 10px;
+}
+.logo{
+	float: left;
+}
+.main-menu{
+	float: right;
+	margin-right: 30px;
+}
+.main-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+} 
+.main-menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+} 
+.main-menu ul li a{
+	font-family:'Brandon-Medium';
+	text-decoration: none;
+	color: #fff;
+} 
+.banner-in{
+	padding-top:100px;
+	text-align: center;
+	color: #fff;
+
+}
+.banner-in p{
+	font-family:'Brandon-light';
+	font-size: 32px;
+	margin-bottom: 20px;
+
+}
+.banner-in h2{
+	font-family:'Brandon-bold';
+	font-size: 66px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	display: block;
+}
+.banner-in a{
+	font-family:'Brandon-bold';
+	display: inline-block;
+	padding: 15px 66px;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	font-size: 22px;
+	font-weight: bold;
+
+}
