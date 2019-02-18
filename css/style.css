@@ -259,5 +259,73 @@ header{
 }
 
 
+/*---------------*/
+/*TEAM SECTION*/
+/*---------------*/
+.team{
+	background: #111111;
+	height: 800px;
+}
+.team-in{
+	padding: 80px 30px;
+}
 
 
+.team-in h2{
+	font-family:'Brandon-light';
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	
+}
+.team-in strong{
+	font-family:'Brandon-bold';
+}
+.team-in p{
+	font-family:'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
+	text-align: center;
+}
+.team-members{
+	margin-top: 60px;
+	margin-left: 95px;
+
+}
+.tm{
+	float: left;
+	margin-left: 30px;
+}
+.tm h3{
+	font-family:'Brandon-Regular';
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+.tm span{
+	font-family:'Brandon-light';
+	font-size: 18px;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+.social-team{
+	margin-top: 10px;
+	text-align: center;
+}
+.social-team a img{
+	margin-left: 5px;
+}
+.para{
+	margin-top: 20px;
+	width: 628px;
+	margin-left: 200px;
+
+}
+.para p{
+	font-family:'Brandon-Regular';
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
