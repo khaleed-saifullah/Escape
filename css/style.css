@@ -175,3 +175,89 @@ header{
 	color: #777777;
 
 }
+/*---------------*/
+/*CLIENT SECTION*/
+/*---------------*/
+
+.client-in{
+	padding: 70px 20px;
+}
+.client-in h2{
+	font-family:'Brandon-light';
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+	
+}
+.client-in strong{
+	font-family:'Brandon-bold';
+}
+.client-in p{
+	font-family:'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
+	text-align: center;
+}
+.client-1{
+	margin-top: 30px;
+}
+.client-1 img{
+	float: left;
+	
+}
+.client-1 .client-des{
+
+	width: 508px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 130px;
+
+}
+.client-1 .client-des p{
+	font-family:'Brandon-Regular';
+	font-size: 26px;
+	color: #777777;
+	
+}
+.client-1 .client-des span{
+	font-family:'Brandon-Regular';
+	font-size: 20px;
+	color: #7690c5;
+}
+.client-2{
+	margin-top: 30px;
+}
+.client-2 img{
+	float: right;
+
+	
+}
+.client-2 .client-des{
+	width: 508px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 100px;    
+}
+.client-2 .client-des p{
+	font-family:'Brandon-Regular';
+	font-size: 26px;
+	color: #777777;
+	
+}
+.client-2 .client-des span{
+	font-family:'Brandon-Regular';
+	font-size: 20px;
+	color: #7690c5;
+}
+.logos{
+	margin-top: 100px;
+	text-align: center;
+}
+.logos img{
+	margin-left: 20px;
+	vertical-align: middle;
+}
+
+
+
+
