@@ -47,10 +47,12 @@ header{
 }
 .logo{
 	float: left;
+	vertical-align: middle;
 }
 .main-menu{
 	float: right;
 	margin-right: 30px;
+	vertical-align: middle;
 }
 .main-menu ul{
 	margin: 0;
@@ -138,4 +140,38 @@ header{
 	font-family:'Brandon-Regular';
 	font-size: 18px;
 	color: #777777;
+}
+
+/*---------------*/
+/*FEATURE SECTION*/
+/*---------------*/
+.services-in{
+	padding: 98px 20px;
+}
+.sr{
+	height:122px;
+	width:402px ;
+	margin-bottom: 30px;
+}
+
+.service-logo{
+	height: 122px;
+	float: left;
+	margin-right: 20px;
+
+}
+.service-description{
+	
+}
+.sr h3{
+	font-family:'Brandon-Medium';
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.sr p{
+	font-family:'Brandon-Regular';
+	font-size: 18px;
+	color: #777777;
+
 }

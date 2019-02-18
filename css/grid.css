@@ -2,3 +2,8 @@
 	width: 1060px;
 	margin: 0 auto;
 }
+
+.col50{
+	float: left;
+	width: 50%;
+}
