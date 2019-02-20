@@ -1,6 +1,8 @@
 /*---------------*/
 /*BASIC SETUP*/
 /*---------------*/
+*:focus {outline: none;}
+
 *{
 	margin: 0;
 	padding:0;
@@ -326,6 +328,92 @@ header{
 .para p{
 	font-family:'Brandon-Regular';
 	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+/*---------------*/
+/*FOOTER*/
+/*---------------*/
+footer{
+	height:638px ;
+	background: #7690c5;
+}
+.footer-part-one{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #8ca6da;
+}
+.footer-in{
+	padding: 84px 55px 20px 55px;
+}
+.footer-part-one h2{
+	font-family:'Brandon-light';
+	font-size: 60px;
+	font-weight: normal;	
+	color: #fff;	
+}
+.footer-part-one strong{
+	font-family:'Brandon-bold';
+}
+
+.footer-part-one p{
+	font-family:'Brandon-Regular';
+	font-size: 18px;
+	color: #fff;	
+}
+.contact{
+	color: #fff;
+	margin-top: 30px;
+}
+.cn{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.cn-img{
+	width: 30px;
+	margin-right: 10px;
+	
+	display: inline-block;
+}
+.cn-img img{
+	vertical-align: middle;
+}
+.cn span a{
+	color: #fff;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.form{
+	padding: 20px;
+}
+.contact-form input,textarea{
+	display: block;
+}
+.contact-form input[type=text],[type=email]{
+	width: 458px;
+	height: 53px;
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 3px;
+	background-color:#fff; 
+	border: 1px solid #fff;
+}
+textarea {
+	width: 458px;
+    height: 210px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+::placeholder { 
+	font-family:'Brandon-Medium';
+	font-size: 18px;
+	color: #bbbbbb;
+}
+.footer-part-two p{
+	padding-top: 25px;
+	font-family:'Brandon-Medium';
+	font-size: 16px;
 	color: #fff;
 	text-align: center;
 }
