@@ -1,0 +1,226 @@
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 1023px){
+	.container{
+	width: 960px;
+	margin: 0 auto;
+	}
+	.feature-1{
+	width: 500px;
+	}
+	.feature-2{
+	width: 500px;
+	}
+	.team-members{
+		display: table;
+  		margin: 60px auto;			
+	}
+
+	.para{
+		margin-left: 128px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.container{
+	width: 700px;
+	margin: 0 auto;
+	}
+	.banner-in h2{
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.banner-in p{
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+	.banner-in a{
+		padding: 10px 30px;
+		font-size: 20px;
+	}
+	.feature-in{
+		padding: 60px 0;
+		display: table;
+  		margin: 0 auto;
+	}
+	.feature-1{
+		width: 500px;
+
+	}
+	.feature-2{
+		width: 500px;
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+	.services-in{
+		display: table;
+  		margin: 0 auto;
+	}
+
+	.services .col50{
+		float: none;
+		width: 100%;
+	}
+	.service-description p{
+		text-align: left;
+	}
+	.client-in h2{
+		font-size: 50px;
+	}
+	.client-1{
+		margin-bottom: 60px;
+	}
+	.client-1 img,.client-2 img{
+		float: none;
+		display: table;
+  		margin: 0 auto;		
+	}
+	.client-1 .client-des{
+		width: auto;
+	    margin-top: 20px;	
+	    float: none;
+	    margin-right:0px;    
+	}
+
+	.client-2 .client-des{
+		width: auto;	    
+	 	margin-top: 10px;
+	    margin-left: 0px;    
+	}
+	.client-des p{
+		font-size: 15px;
+		text-align: left;
+	}
+
+	.logos img{
+		width:150px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.logos img:last-child{
+		margin-right: 0px;
+	}
+	.team{
+		height: auto;
+	}
+	.team-in{
+		padding: 80px 0px;
+	}
+	.team-in h2{
+		font-size: 50px;
+	}
+	.team-members{
+		display: table;
+  		margin: 20px auto 0 auto;			
+	}
+	.team-1 img,.team-2 img,.team-3 img{
+		height: 200px;
+		width: 200px;
+	}
+	.social-team img{
+		height: auto;
+		width: auto;
+	}
+	.para{
+		display: table;
+  		margin: 20px auto;	
+		width: 628px;		
+	}
+	footer{
+		height:auto ;
+		
+	}
+	.cl{
+		width: 100%;
+		float: none;
+	}
+	.footer-in{
+		padding: 50px 20px;
+	}
+	.footer-part-one h2,p{
+		text-align: center;
+	}
+	.contact{
+		width: 400px;
+		display: table;
+  		margin: 20px auto;	
+	}
+	.form{		
+		padding: 20px;
+		display: table;
+  		margin: 0 auto;	
+	}
+	
+
+}
+@media only screen and (max-width: 480px){
+	.container{
+		width: 450px;
+		margin: 0 auto;
+	}
+	.main-menu{
+		display: none;
+	}
+	.feature-in{
+		padding: 50px 0px;
+	}
+	.feature-1 h2,.feature-2 h2{
+		font-size: 40px;
+		text-align: center;
+	}
+	.feature-1 p,.feature-2 p{
+		text-align: left;
+	}
+	.feature-1,.feature-2{
+		width: 420px;
+	}
+	.services-in{
+		padding: 50px 20px;
+	}
+	.service-description p{
+		text-align: left;
+	}
+	.client-1 img,.client-2 img{
+		float: none;
+		display: table;
+  		margin: 0 auto;		
+	}
+	.client-1.client-des,.client-2 .client-des{
+		width: auto;
+	    float: none;
+	    margin-top: 0px;
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+
+	.logos img{
+		width:80px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.logos img:last-child{
+		margin-right: 0px;
+	}
+
+	.tm{
+		float: none;
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+	.para{
+		display: table;
+  		margin: 20px auto;	
+		width: auto;		
+	}
+	.footer-in{
+		padding: 50px 0px;
+	}
+	.form{
+		width: 100%;
+	}
+	.contact-form input[type=text],[type=email],textarea {
+		width: 100%;
+	}
+
+
+}
