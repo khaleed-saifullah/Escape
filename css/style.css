@@ -56,14 +56,16 @@ html{
 header{
 	padding: 38px 10px;
 }
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .logo{
-	float: left;
-	vertical-align: middle;
+	
 }
 .main-menu{
-	float: right;
-	margin-right: 30px;
-	vertical-align: middle;
+
 }
 .main-menu ul{
 	margin: 0;
@@ -211,17 +213,18 @@ header{
 }
 .client-1{
 	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .client-1 img{
-	float: left;
+	
 	
 }
 .client-1 .client-des{
 
 	width: 508px;
-    float: right;
-    margin-top: 70px;
-    margin-right: 130px;
+
 
 }
 .client-1 .client-des p{
@@ -237,17 +240,20 @@ header{
 }
 .client-2{
 	margin-top: 30px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
 }
 .client-2 img{
-	float: right;
+	
 
 	
 }
 .client-2 .client-des{
 	width: 508px;
-    float: left;
-    margin-top: 70px;
-    margin-left: 100px;    
+   
+    
 }
 .client-2 .client-des p{
 	font-family:'Brandon-Regular';
@@ -300,12 +306,15 @@ header{
 	text-align: center;
 }
 .team-members{
+	display: flex;
+	
+	justify-content: space-evenly;
+	align-items: center;
 	margin-top: 60px;
-	margin-left: 95px;
+	
 }
 .tm{
-	float: left;
-	margin-right: 30px;
+
 }
 .team-3{
 	margin-right: 0px;

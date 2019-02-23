@@ -13,8 +13,7 @@
 	width: 500px;
 	}
 	.team-members{
-		display: table;
-  		margin: 60px auto;			
+		
 	}
 
 	.para{
@@ -23,8 +22,8 @@
 }
 @media only screen and (max-width: 767px){
 	.container{
-	width: 700px;
-	margin: 0 auto;
+		width: 700px;
+		margin: 0 auto;
 	}
 	.banner-in h2{
 		font-size: 35px;
@@ -67,18 +66,19 @@
 	.client-in h2{
 		font-size: 50px;
 	}
+	.client-in {
+   		padding: 70px 0px;
+	}
 	.client-1{
 		margin-bottom: 60px;
 	}
 	.client-1 img,.client-2 img{
-		float: none;
-		display: table;
-  		margin: 0 auto;		
+	
 	}
 	.client-1 .client-des{
 		width: auto;
 	    margin-top: 20px;	
-	    float: none;
+
 	    margin-right:0px;    
 	}
 
@@ -109,10 +109,7 @@
 	.team-in h2{
 		font-size: 50px;
 	}
-	.team-members{
-		display: table;
-  		margin: 20px auto 0 auto;			
-	}
+
 	.team-1 img,.team-2 img,.team-3 img{
 		height: 200px;
 		width: 200px;
@@ -180,17 +177,20 @@
 	.service-description p{
 		text-align: left;
 	}
+	.client-1{		
+		flex-direction:column;
+	}
+	.client-2{
+		flex-direction: column;
+	}
 	.client-1 img,.client-2 img{
-		float: none;
+		
 		display: table;
   		margin: 0 auto;		
 	}
 	.client-1.client-des,.client-2 .client-des{
-		width: auto;
-	    float: none;
-	    margin-top: 0px;
-	    margin-right: 0px;
-	    margin-left: 0px;
+		width: auto;	   
+
 	}
 
 	.logos img{
@@ -201,9 +201,11 @@
 	.logos img:last-child{
 		margin-right: 0px;
 	}
+	.team-members{
+		flex-direction: column;
+	}
 
-	.tm{
-		float: none;
+	.tm{		
 		margin-right: 0px;
 		margin-bottom: 40px;
 	}
@@ -222,5 +224,72 @@
 		width: 100%;
 	}
 
+
+}
+@media only screen and (max-width: 360px){
+	.container{
+		width: 340px;
+		margin: 0 auto;
+	}
+	.banner-in p{
+		font-size: 18px;
+	}
+	.banner-in h2{
+		font-size: 30px;
+	}
+	.feature-1,.feature-2{
+		width: 100%;
+	}
+	.services-in {
+	    padding: 40px 0px;
+	    width: 100%;
+	}
+	.sr{
+		width: 100%;
+		height: auto;
+	}
+	.client-in h2{
+		font-size: 35px;
+	}
+	.client-in p{
+		font-size: 15px;
+	}
+	.client-1 .client-des p,.client-2 .client-des p{
+		font-size: 20px;
+	}
+	.client-1 .client-des span,.client-2 .client-des span{
+		font-size: 18px;
+	}
+	.logos img{
+		width:60px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.logos img:last-child{
+		margin-right: 0px;
+	}
+	.team-in{
+		padding: 30px 20px;
+	}
+	.team-in h2{
+		font-size: 35px;
+	}
+	.footer-part-one h2{
+		font-size: 35px;
+	}
+	.footer-part-one p{
+		font-size: 15px;
+	}
+	.contact .col50{
+		float: none;
+		width: 100%;
+	}
+	.contact{
+		width: 100%;
+	}
+	.cn{
+		display: table;
+  		margin: 0px auto;
+	}
 
 }
