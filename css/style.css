@@ -191,7 +191,9 @@ header{
 /*---------------*/
 /*CLIENT SECTION*/
 /*---------------*/
-
+.client{
+	background: #d1d1d1;
+}
 .client-in{
 	padding: 70px 20px;
 }
@@ -217,15 +219,16 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
-.client-1 img{
-	
-	
+
+.client-des{
+	width: 620px;
+	padding: 20px 40px;
+	border:1px solid #d1d1d1;
+	background: #fff;
+	border-radius: 2px; 
 }
-.client-1 .client-des{
-
-	width: 508px;
-
-
+.client-des p{
+	text-align: left;
 }
 .client-1 .client-des p{
 	font-family:'Brandon-Regular';
@@ -245,16 +248,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
-.client-2 img{
-	
 
-	
-}
-.client-2 .client-des{
-	width: 508px;
-   
-    
-}
 .client-2 .client-des p{
 	font-family:'Brandon-Regular';
 	font-size: 26px;
