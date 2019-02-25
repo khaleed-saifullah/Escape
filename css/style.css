@@ -81,6 +81,12 @@ header{
 	text-decoration: none;
 	color: #fff;
 } 
+.main-menu ul li:first-child a{
+	color: #668fe2;
+}
+.main-menu ul li a:hover{
+	color: #668fe2;
+}
 .banner-in{
 	padding-top:100px;
 	text-align: center;
@@ -111,21 +117,28 @@ header{
 	font-weight: bold;
 
 }
+.banner-in a:hover{
+	color: #668fe2;
+	border: 2px solid #668fe2;
+}
+
 /*---------------*/
 /*FEATURE SECTION*/
 /*---------------*/
 
 .feature-in{
 	padding: 98px 20px;
+
 }
 .feature-1{
+	
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row-reverse;
 }
-.feature-1-des{
-	width: 574px;
+.feature-1-des,.feature-2-des{
+	width: 60%;
 }
 .feature h2{
 	font-family:'Brandon-light';
@@ -142,15 +155,22 @@ header{
 	color: #777777;
 }
 .feature-2{
+	background: #fafafa;
+	margin-top: 50px;
+
+	
+}
+.feature-2-inside{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.feature-2-des{
-	margin-top: 150px;
-	width: 574px;
-
+.feature-1-img,.feature-2-img{
+    display: flex;
+    justify-content: center;
+    width: 40%;
 }
+
 
 
 /*---------------*/
@@ -190,7 +210,7 @@ header{
 /*CLIENT SECTION*/
 /*---------------*/
 .client{
-	background: #d1d1d1;
+	background: #fafafa;
 }
 .client-in{
 	padding: 70px 20px;
