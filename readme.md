@@ -17,6 +17,7 @@ Demo [ https://khaleed-saifullah.github.io/Escape/]( https://khaleed-saifullah.g
 
 * Inch-parfect PSD to HTML
 * Raw CSS without any Framework
+* Fully Responsive
 
 # How to use
 * >$ git clone [repo-link]
