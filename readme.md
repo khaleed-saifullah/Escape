@@ -5,13 +5,13 @@
 
 
 ## Live
-Demo [https://khaleed-saifullah.github.io/](https://khaleed-saifullah.github.io)
+Demo [ https://khaleed-saifullah.github.io/Escape/]( https://khaleed-saifullah.github.io/Escape/)
 
 
 ## Built With
 
-* [HTML5](https://reactjs.org/)
-* [CSS3](https://github.com/ReactTraining/react-router)
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 
 ## What I have done
 
@@ -22,5 +22,9 @@ Demo [https://khaleed-saifullah.github.io/](https://khaleed-saifullah.github.io)
 * >$ git clone [repo-link]
 * browse index.html
 
+
+# PSD Template:
+
+https://raw.githubusercontent.com/khaleed-saifullah/Escape/master/images/Escape.jpg
 
 
