@@ -119,41 +119,39 @@ header{
 	padding: 98px 20px;
 }
 .feature-1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.feature-1-des{
 	width: 574px;
 }
-.feature-1 h2{
+.feature h2{
 	font-family:'Brandon-light';
 	font-size: 60px;
 	font-weight: normal;
 	margin-bottom: 20px;
 }
-.feature-1 strong{
+.feature strong{
 	font-family:'Brandon-bold';
 }
-.feature-1 p{
+.feature p{
 	font-family:'Brandon-Regular';
 	font-size: 18px;
 	color: #777777;
 }
 .feature-2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.feature-2-des{
 	margin-top: 150px;
 	width: 574px;
-	margin-left: 447px;
+
 }
-.feature-2 h2{
-	font-family:'Brandon-light';
-	font-size: 60px;
-	font-weight: normal;
-	margin-bottom: 20px;
-}
-.feature-2 strong{
-	font-family:'Brandon-bold';
-}
-.feature-2 p{
-	font-family:'Brandon-Regular';
-	font-size: 18px;
-	color: #777777;
-}
+
 
 /*---------------*/
 /*SERVICES SECTION*/

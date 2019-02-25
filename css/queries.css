@@ -42,6 +42,10 @@
 		display: table;
   		margin: 0 auto;
 	}
+	.feature-1,.feature-2{
+		flex-direction: column;
+	}
+
 	.feature-1{
 		width: 500px;
 
@@ -168,7 +172,7 @@
 	.feature-1 p,.feature-2 p{
 		text-align: left;
 	}
-	.feature-1,.feature-2{
+	.feature-1-des,.feature-2-des{
 		width: 420px;
 	}
 	.services-in{
