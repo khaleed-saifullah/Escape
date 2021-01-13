@@ -1,305 +1,404 @@
-@media only screen and (max-width: 1200px){
-
+@media only screen and (max-width: 1200px) {
+	.container {
+		width: 1000px;
+		margin: 0 auto;
+	}
 }
-@media only screen and (max-width: 1023px){
-	.container{
-	width: 960px;
-	margin: 0 auto;
-	}
-	.feature-1{
-	width: 500px;
-	}
-	.feature-2{
-	width: 500px;
-	}
-	.team-members{
-		
+
+@media only screen and (max-width: 1024px) {
+	.container {
+		width: 960px;
+		margin: 0 auto;
 	}
 
-	.para{
+	.team-members {}
+
+	.para {
 		margin-left: 128px;
 	}
 }
-@media only screen and (max-width: 767px){
-	.container{
+
+@media only screen and (max-width: 768px) {
+	.container {
 		width: 700px;
 		margin: 0 auto;
 	}
-	.banner-in h2{
+
+	.banner-in h2 {
 		font-size: 35px;
 		margin-bottom: 20px;
 	}
-	.banner-in p{
+
+	.banner-in p {
 		font-size: 20px;
 		margin-bottom: 5px;
 	}
-	.banner-in a{
+
+	.banner-in a {
 		padding: 10px 30px;
 		font-size: 20px;
 	}
-	.feature-in{
+
+	.feature-in {
 		padding: 60px 0;
 
 	}
-	.feature-1-des, .feature-2-des {
-    	width: 100%;
+
+	.feature-1-des,
+	.feature-2-des {
+		width: 100%;
 	}
+
 	.feature h2 {
 		text-align: center;
 	}
-	.feature-1{
+
+	.feature-1 {
 		flex-direction: column;
 	}
-	.feature-2-inside{
-		flex-direction:column; 
+
+	.feature-2-inside {
+		flex-direction: column;
 	}
 
-	.feature-1{
+	.feature-1 {
 		width: 100%;
 	}
-	.feature-2{
+
+	.feature-2 {
 		width: 100%;
 	}
-	.services-in{
+
+	.services-in {
 		display: table;
-  		margin: 0 auto;
+		margin: 0 auto;
 	}
 
-	.services .col50{
+	.services .col50 {
 		float: none;
 		width: 100%;
 	}
-	.service-description p{
+
+	.service-description p {
 		text-align: left;
 	}
-	.client-in h2{
+
+	.client-in h2 {
 		font-size: 50px;
 	}
+
 	.client-in {
-   		padding: 70px 0px;
+		padding: 70px 0px;
 	}
-	.client-1{
+
+	.client-1 {
 		margin-bottom: 60px;
 	}
-	.client-1 img,.client-2 img{
-	
-	}
-	.client-1 .client-des{
+
+	.client-1 img,
+	.client-2 img {}
+
+	.client-1 .client-des {
 		width: auto;
-	    margin-top: 20px;	
+		margin-top: 20px;
 
-	    margin-right:0px;    
+		margin-right: 0px;
 	}
 
-	.client-2 .client-des{
-		width: auto;	    
-	 	margin-top: 10px;
-	    margin-left: 0px;    
+	.client-2 .client-des {
+		width: auto;
+		margin-top: 10px;
+		margin-left: 0px;
 	}
-	.client-des p{
+
+	.client-des p {
 		font-size: 15px;
 		text-align: left;
 	}
 
-	.logos img{
-		width:150px;
+	.logos img {
+		width: 150px;
 		margin-right: 10px;
 		vertical-align: middle;
 	}
-	.logos img:last-child{
+
+	.logos img:last-child {
 		margin-right: 0px;
 	}
-	.team{
+
+	.team {
 		height: auto;
 	}
-	.team-in{
+
+	.team-in {
 		padding: 80px 0px;
 	}
-	.team-in h2{
+
+	.team-in h2 {
 		font-size: 50px;
 	}
 
-	.team-1 img,.team-2 img,.team-3 img{
+	.team-1 img,
+	.team-2 img,
+	.team-3 img {
 		height: 200px;
 		width: 200px;
 	}
-	.social-team img{
+
+	.social-team img {
 		height: auto;
 		width: auto;
 	}
-	.para{
+
+	.para {
 		display: table;
-  		margin: 20px auto;	
-		width: 628px;		
+		margin: 20px auto;
+		width: 628px;
 	}
-	footer{
-		height:auto ;
-		
+
+	footer {
+		height: auto;
+
 	}
-	.cl{
+
+	.cl {
 		width: 100%;
 		float: none;
 	}
-	.footer-in{
+
+	.footer-in {
 		padding: 50px 20px;
 	}
-	.footer-part-one h2,p{
+
+	.footer-part-one h2,
+	p {
 		text-align: center;
 	}
-	.contact{
+
+	.contact {
 		width: 400px;
 		display: table;
-  		margin: 20px auto;	
+		margin: 20px auto;
 	}
-	.form{		
+
+	.form {
 		padding: 20px;
 		display: table;
-  		margin: 0 auto;	
-	}
-	
-
-}
-@media only screen and (max-width: 480px){
-	.container{
-		width: 450px;
 		margin: 0 auto;
 	}
-	.main-menu{
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.service-logo {
+		float: none;
+	}
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.main-menu {
 		display: none;
 	}
-	.feature-in{
+
+	.feature-in {
 		padding: 50px 0px;
 	}
 
-	.feature-1 h2,.feature-2 h2{
+	.feature-1 h2,
+	.feature-2 h2 {
 		font-size: 40px;
 		text-align: center;
 	}
-	.feature-1 p,.feature-2 p{
+
+	.feature-1 p,
+	.feature-2 p {
 		text-align: left;
 	}
-	.feature-1-des,.feature-2-des{
+
+	.feature-1-des,
+	.feature-2-des {
 		width: 100%;
 	}
-	.services-in{
-		padding: 50px 20px;
+
+	.services-in {
+		padding: 50px 0px;
 	}
-	.service-description p{
+
+	.service-description p {
 		text-align: left;
 	}
-	.client-1{		
-		flex-direction:column;
-	}
-	.client-2{
+
+	.client-1 {
 		flex-direction: column;
 	}
-	.client-1 img,.client-2 img{
-		
+
+	.client-2 {
+		flex-direction: column;
+	}
+
+	.client-1 img,
+	.client-2 img {
+
 		display: table;
-  		margin: 0 auto;		
+		margin: 0 auto;
 	}
-	.client-1.client-des,.client-2 .client-des{
-		width: auto;	   
+
+	.client-1.client-des,
+	.client-2 .client-des {
+		width: auto;
 
 	}
 
-	.logos img{
-		width:80px;
+	.logos img {
+		width: 80px;
 		margin-right: 10px;
 		vertical-align: middle;
 	}
-	.logos img:last-child{
+
+	.logos img:last-child {
 		margin-right: 0px;
 	}
-	.team-members{
+
+	.team-members {
 		flex-direction: column;
 	}
 
-	.tm{		
+	.tm {
 		margin-right: 0px;
 		margin-bottom: 40px;
 	}
-	.para{
+
+	.para {
 		display: table;
-  		margin: 20px auto;	
-		width: auto;		
+		margin: 20px auto;
+		width: auto;
 	}
-	.footer-in{
+
+	.footer-in {
 		padding: 50px 0px;
 	}
-	.form{
-		width: 100%;
-	}
-	.contact-form input[type=text],[type=email],textarea {
+
+	.form {
 		width: 100%;
 	}
 
-
-}
-@media only screen and (max-width: 360px){
-	.container{
-		width: 340px;
-		margin: 0 auto;
-	}
-	.banner-in p{
-		font-size: 18px;
-	}
-	.banner-in h2{
-		font-size: 30px;
-	}
-	.feature-1,.feature-2{
+	.contact-form input[type=text],
+	[type=email],
+	textarea {
 		width: 100%;
 	}
+
 	.services-in {
-	    padding: 40px 0px;
-	    width: 100%;
+		padding: 40px 0px;
+		width: 100%;
 	}
-	.sr{
+
+	.sr {
 		width: 100%;
 		height: auto;
 	}
-	.client-in h2{
-		font-size: 35px;
-	}
-	.client-in p{
-		font-size: 15px;
-	}
-	.client-1 .client-des p,.client-2 .client-des p{
-		font-size: 20px;
-	}
-	.client-1 .client-des span,.client-2 .client-des span{
-		font-size: 18px;
-	}
-	.logos img{
-		width:60px;
-		margin-right: 10px;
-		vertical-align: middle;
-	}
-	.logos img:last-child{
-		margin-right: 0px;
-	}
-	.team-in{
-		padding: 30px 20px;
-	}
-	.team-in h2{
-		font-size: 35px;
-	}
-	.footer-part-one h2{
-		font-size: 35px;
-	}
-	.footer-part-one p{
-		font-size: 15px;
-	}
-	.contact .col50{
+
+	.contact .col50 {
 		float: none;
 		width: 100%;
 	}
-	.contact{
+
+	.contact {
 		width: 100%;
 	}
-	.cn{
+
+	.cn {
 		display: table;
-  		margin: 0px auto;
+		margin: 0px auto;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+
+	.banner-in p {
+		font-size: 18px;
+	}
+
+	.banner-in h2 {
+		font-size: 30px;
+	}
+
+	.feature-1,
+	.feature-2 {
+		width: 100%;
+	}
+
+	.services-in {
+		padding: 40px 0px;
+		width: 100%;
+	}
+
+	.sr {
+		width: 100%;
+		height: auto;
+	}
+
+	.client-in h2 {
+		font-size: 35px;
+	}
+
+	.client-in p {
+		font-size: 15px;
+	}
+
+	.client-1 .client-des p,
+	.client-2 .client-des p {
+		font-size: 20px;
+	}
+
+	.client-1 .client-des span,
+	.client-2 .client-des span {
+		font-size: 18px;
+	}
+
+	.logos img {
+		width: 60px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+
+	.logos img:last-child {
+		margin-right: 0px;
+	}
+
+	.team-in {
+		padding: 30px 20px;
+	}
+
+	.team-in h2 {
+		font-size: 35px;
+	}
+
+	.footer-part-one h2 {
+		font-size: 35px;
+	}
+
+	.footer-part-one p {
+		font-size: 15px;
+	}
+
+	.contact .col50 {
+		float: none;
+		width: 100%;
+	}
+
+	.contact {
+		width: 100%;
+	}
+
+	.cn {
+		display: table;
+		margin: 0px auto;
 	}
 
 }
